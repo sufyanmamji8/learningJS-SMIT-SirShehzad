@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: burlywood;
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+#weatherform #myInput{
+    width: 20vw;
+    height: 5vh;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+
+#weatherform button{
+    height: 5vh;
+    width: 7vw;
+    background-color: brown;
+    color: white;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+}
